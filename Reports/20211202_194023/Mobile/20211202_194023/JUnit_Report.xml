@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mobile" time="82.593" tests="1" failures="0" errors="0">
+   <testsuite name="Mobile" tests="1" failures="0" errors="0" time="82.593" skipped="0" timestamp="2021-12-02 19:40:31" hostname="Moladin - LAPTOP-GA1E3H5N" id="Test Suites/Mobile">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Moladin\\sehatq\\Reports\\20211202_194023\\Mobile\\20211202_194023"/>
+         <property name="logFiles" value="C:\\Users\\Moladin\\sehatq\\Reports\\20211202_194023\\Mobile\\20211202_194023\\appium.log, C:\\Users\\Moladin\\sehatq\\Reports\\20211202_194023\\Mobile\\20211202_194023\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Moladin - LAPTOP-GA1E3H5N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="M2003J15SC"/>
+         <property name="hostAddress" value="192.168.0.109"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="20860d7e0410"/>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/SehatQ/Mobile/Register" time="81.781" classname="Test Cases/SehatQ/Mobile/Register" status="PASSED">
+         <system-out><![CDATA[2021-12-02 19:40:32 - [TEST_CASE][PASSED] - Test Cases/SehatQ/Mobile/Register: Test Cases/SehatQ/Mobile/Register
+
+2021-12-02 19:40:32 - [TEST_STEP][PASSED] - startExistingApplication("com.she.sehatq"): Starting app with application ID: 'com.she.sehatq'
+
+2021-12-02 19:40:35 - [MESSAGE][INFO] - Appium server started on port 55,363
+
+2021-12-02 19:40:46 - [MESSAGE][PASSED] - Starting app with application ID: 'com.she.sehatq'
+
+2021-12-02 19:40:46 - [TEST_STEP][PASSED] - mobile = new com.sehatq.pageobjects.mobile.home.MobileSehatq(): null
+
+2021-12-02 19:40:46 - [TEST_STEP][PASSED] - mobile.register(nama, Email, Password, Action, nomortlp, gender, jenisidentitas, nomoridentitas): Close app successfully
+
+2021-12-02 19:40:50 - [MESSAGE][WARNING] - Object aktifkanlokasimu not found
+
+2021-12-02 19:40:51 - [MESSAGE][PASSED] - Tapped on element 'klikprofiel'
+
+2021-12-02 19:40:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-02 19:41:21 - [MESSAGE][WARNING] - Object verifylogin not found
+
+2021-12-02 19:41:21 - [MESSAGE][INFO] - Tidak perlu logout dulu 
+
+2021-12-02 19:41:21 - [MESSAGE][PASSED] - Tapped on element 'klikdaftar'
+
+2021-12-02 19:41:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-02 19:41:24 - [MESSAGE][PASSED] - Text 'fauzi' has been set to element 'inputnamalengkap'
+
+2021-12-02 19:41:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-02 19:41:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-02 19:41:26 - [MESSAGE][PASSED] - Text 'fauzifajjeeejrrrn@gmail.com' has been set to element 'inputemaildaftar'
+
+2021-12-02 19:41:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-02 19:41:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-02 19:41:28 - [MESSAGE][PASSED] - Text 'fauzi123' has been set to element 'inputpassworddaftar'
+
+2021-12-02 19:41:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-02 19:41:30 - [MESSAGE][PASSED] - Tapped on element 'kliksayasetuju'
+
+2021-12-02 19:41:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-02 19:41:31 - [MESSAGE][PASSED] - Tapped on element 'buttondaftar'
+
+2021-12-02 19:41:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-02 19:41:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-02 19:41:36 - [MESSAGE][PASSED] - Text '08571763667' has been set to element 'inputnotlp'
+
+2021-12-02 19:41:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-02 19:41:38 - [MESSAGE][PASSED] - Tapped on element 'inputtgllahir'
+
+2021-12-02 19:41:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-02 19:41:39 - [MESSAGE][PASSED] - Tapped on element 'pilihtgllahir'
+
+2021-12-02 19:41:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-02 19:41:41 - [MESSAGE][PASSED] - Tapped on element 'jeniskelamin'
+
+2021-12-02 19:41:43 - [MESSAGE][PASSED] - Tapped on element 'jenisidentitas'
+
+2021-12-02 19:41:43 - [MESSAGE][PASSED] - Tapped on element 'klikjenisidentitas'
+
+2021-12-02 19:41:45 - [MESSAGE][PASSED] - Tapped on element 'ktp'
+
+2021-12-02 19:41:46 - [MESSAGE][PASSED] - Text '32764563366372' has been set to element 'noidentitas'
+
+2021-12-02 19:41:47 - [MESSAGE][PASSED] - Tapped on element 'clicklewatiregister'
+
+2021-12-02 19:41:48 - [MESSAGE][PASSED] - Tapped on element 'clickya'
+
+2021-12-02 19:41:50 - [MESSAGE][PASSED] - Tapped on element 'klikhamburgerprofil'
+
+2021-12-02 19:41:51 - [MESSAGE][PASSED] - Tapped on element 'klikpengaturanaplikasi'
+
+2021-12-02 19:41:52 - [MESSAGE][PASSED] - Tapped on element 'buttonlogout'
+
+2021-12-02 19:41:53 - [MESSAGE][PASSED] - Tapped on element 'kliklogoutya'
+
+2021-12-02 19:41:54 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-02 19:40:31 - [TEST_SUITE][PASSED] - Mobile: Test Cases/SehatQ/Mobile/Register]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

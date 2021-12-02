@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mobile,,,,2021-12-02 19:19:27,2021-12-02 19:24:44,5m - 16.499s,FAILED
+,,,,,,,
+Test Cases/SehatQ/Mobile/Login,,,,2021-12-02 19:19:28,2021-12-02 19:20:07,39.338s,PASSED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-12-02 19:19:28,2021-12-02 19:19:43,14.506s,PASSED
+mobile = new com.sehatq.pageobjects.mobile.home.MobileSehatq(),,,,2021-12-02 19:19:43,2021-12-02 19:19:43,0.142s,PASSED
+"mobile.login(Email, Password)",,,,2021-12-02 19:19:43,2021-12-02 19:20:07,24.172s,PASSED
+,,,,,,,
+Test Cases/SehatQ/Mobile/Login,,,,2021-12-02 19:20:07,2021-12-02 19:21:38,1m - 31.159s,PASSED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-12-02 19:20:07,2021-12-02 19:20:20,13.109s,PASSED
+mobile = new com.sehatq.pageobjects.mobile.home.MobileSehatq(),,,,2021-12-02 19:20:20,2021-12-02 19:20:20,0.001s,PASSED
+"mobile.login(Email, Password)",,,,2021-12-02 19:20:20,2021-12-02 19:21:38,1m - 18.041s,PASSED
+,,,,,,,
+Test Cases/SehatQ/Mobile/Login,,,,2021-12-02 19:21:38,2021-12-02 19:22:41,1m - 2.323s,PASSED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-12-02 19:21:38,2021-12-02 19:21:51,12.869s,PASSED
+mobile = new com.sehatq.pageobjects.mobile.home.MobileSehatq(),,,,2021-12-02 19:21:51,2021-12-02 19:21:51,0.000s,PASSED
+"mobile.login(Email, Password)",,,,2021-12-02 19:21:51,2021-12-02 19:22:41,49.426s,PASSED
+,,,,,,,
+Test Cases/SehatQ/Mobile/Register,,,,2021-12-02 19:22:41,2021-12-02 19:23:56,1m - 15.036s,PASSED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-12-02 19:22:41,2021-12-02 19:22:54,12.639s,PASSED
+mobile = new com.sehatq.pageobjects.mobile.home.MobileSehatq(),,,,2021-12-02 19:22:54,2021-12-02 19:22:54,0.000s,PASSED
+"mobile.register(nama, Email, Password, Action, nomortlp, gender, jenisidentitas, nomoridentitas)",,,,2021-12-02 19:22:54,2021-12-02 19:23:56,1m - 1.838s,PASSED
+,,,,,,,
+Test Cases/SehatQ/Mobile/cart,,,,2021-12-02 19:23:56,2021-12-02 19:24:44,47.784s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-12-02 19:23:56,2021-12-02 19:24:09,12.718s,PASSED
+mobile = new com.sehatq.pageobjects.mobile.home.MobileSehatq(),,,,2021-12-02 19:24:09,2021-12-02 19:24:09,0.000s,PASSED
+"mobile.cart(email, password, carilokasi, labelalamat, namapenerima, notlpnpenerima, catatan, pengiriman, jenispengiriman, pembayaran)",,,,2021-12-02 19:24:09,2021-12-02 19:24:44,34.718s,FAILED

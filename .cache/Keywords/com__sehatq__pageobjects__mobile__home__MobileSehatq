@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "B7311FA2E28CFE238DFCC96E615D21E6",
+  "keywordClasses": [
+    {
+      "name": "com.sehatq.pageobjects.mobile.home.MobileSehatq",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
