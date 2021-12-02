@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Mobile,,,,2021-12-02 19:39:03,2021-12-02 19:40:10,1m - 6.327s,FAILED
-,,,,,,,
-Test Cases/SehatQ/Mobile/Register,,,,2021-12-02 19:39:04,2021-12-02 19:40:10,1m - 5.904s,FAILED
-"startExistingApplication(""com.she.sehatq"")",,,,2021-12-02 19:39:05,2021-12-02 19:39:20,15.940s,PASSED
-mobile = new com.sehatq.pageobjects.mobile.home.MobileSehatq(),,,,2021-12-02 19:39:20,2021-12-02 19:39:21,0.098s,PASSED
-"mobile.register(nama, Email, Password, Action, nomortlp, gender, jenisidentitas, nomoridentitas)",,,,2021-12-02 19:39:21,2021-12-02 19:40:10,49.276s,FAILED
